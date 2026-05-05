@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="UrlBuilder.Core/UrlBuilder.Core.csproj" />
+  <Project Path="UrlBuilder.Tests/UrlBuilder.Tests.csproj" />
+</Solution>
