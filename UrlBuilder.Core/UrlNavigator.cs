@@ -70,7 +70,7 @@ public class UrlNavigator
             throw new InvalidOperationException("Controller and Action must be set.");
         }
 
-        var url = $"{_controller}/{_action}";
+        var url = $"/{_controller}/{_action}";
 
         // If there are any parameters, append them as a query string to the URL.
         if (_parameters.Any())
