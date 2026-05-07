@@ -26,3 +26,15 @@ string url = new UrlNavigator()
 Console.WriteLine(url); 
 // Outputs: /Home/Index?test=123
 ```
+
+
+## Quick Start
+
+You can see the library in action by running the included sample project. Navigate to the sample directory and use the .NET CLI:
+
+```bash
+cd UrlBuilder.Sample
+dotnet run
+```
+
+This will demonstrate how the library handles controller/action routing and parameter encoding.
